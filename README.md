@@ -5,4 +5,8 @@ Hello Sapan
 =======
 Login feature is under devlopement
 Last line added
+<<<<<<< HEAD
+>>>>>>> feature/login
+=======
+Merge activity completed
 >>>>>>> feature/login
