@@ -10,3 +10,4 @@ Last line added
 =======
 Merge activity completed
 >>>>>>> feature/login
+Git pull hands-on practice
