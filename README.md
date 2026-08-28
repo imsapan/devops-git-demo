@@ -11,3 +11,5 @@ Do not take your laptop
 Jenkins CI testing - Day 3
 Jenkins Webhook Testing - Day 3
 We will go outside for dinner
+Today's JJB BIRTHDAY
+Today's BIBEK BIRTHDAY
