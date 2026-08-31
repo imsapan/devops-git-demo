@@ -15,3 +15,4 @@ Today's JJB BIRTHDAY
 Today's BIBEK BIRTHDAY
 Done for today
 Welcome to night shift Sapan!
+Issues fixed now.
