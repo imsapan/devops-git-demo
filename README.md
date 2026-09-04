@@ -17,4 +17,3 @@ Done for today
 Welcome to night shift Sapan!
 Issues fixed now.
 Day 3 CI automation test
-Gitpush
