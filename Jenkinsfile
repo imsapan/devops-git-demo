@@ -1,6 +1,10 @@
 pipeline {
     agent any
-
+    
+    environment {
+	APP_NAME = 'devops-demo'
+	ENV = 'development'
+}
     stages {
 
         stage('Checkout') {
@@ -12,6 +16,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build stage running'
+		echo "Application: ${APP_NAME}"
+		echo "Environment: ${ENV}"
                 sh 'pwd'
                 sh 'ls -la'
             }
