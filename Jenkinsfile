@@ -12,6 +12,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build stage running'
+                sh 'pwd'
+                sh 'ls -la'
             }
         }
 
