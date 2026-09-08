@@ -16,6 +16,7 @@ pipeline {
             steps {
                 echo 'Build stage running'
 		echo "Application: ${APP_NAME}"
+		echo "parameters: ${params}"
 		echo "Environment: ${params.ENVIROMENT}"
                 sh 'pwd'
                 sh 'ls -la'
