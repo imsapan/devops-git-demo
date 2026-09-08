@@ -3,7 +3,7 @@ pipeline {
     
     environment {
 	APP_NAME = 'devops-demo'
-}
+	}
     stages {
 
         stage('Checkout') {
@@ -26,6 +26,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test stage running'
+		sh 'test -f README.md'
+		echo 'README.md test passed'
             }
         }
     }
