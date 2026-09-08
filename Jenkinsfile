@@ -3,7 +3,6 @@ pipeline {
     
     environment {
 	APP_NAME = 'devops-demo'
-	ENV = 'development'
 }
     stages {
 
@@ -17,7 +16,7 @@ pipeline {
             steps {
                 echo 'Build stage running'
 		echo "Application: ${APP_NAME}"
-		echo "Environment: ${ENV}"
+		echo "Environment: ${params.ENVIROMENT}"
                 sh 'pwd'
                 sh 'ls -la'
             }
