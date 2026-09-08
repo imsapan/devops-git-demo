@@ -26,7 +26,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test stage running'
-		sh 'test -f README.md'
+		sh 'test -f README.txt'
 		echo 'README.md test passed'
             }
         }
