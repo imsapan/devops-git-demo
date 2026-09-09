@@ -20,3 +20,4 @@ Day 3 CI automation test
 Welcome to Day-4 class!
 Pipeline webhook test
 Webhook test
+Default environment test
