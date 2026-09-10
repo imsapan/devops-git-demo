@@ -26,7 +26,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test stage running'
-		sh 'test -f sapan'
+		sh 'test -f README.md'
 		echo 'README.md test passed'
             }
         }
