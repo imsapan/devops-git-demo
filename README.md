@@ -24,3 +24,4 @@ Default environment test
 Welcome to Day-5
 Docker class
 Docker class-2
+Welcome to class Day-7 - Dockerfile
