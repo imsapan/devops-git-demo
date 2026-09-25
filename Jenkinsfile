@@ -30,6 +30,13 @@ pipeline {
 		echo 'README.md test passed'
             }
         }
-    }
+
+	stage('Docker Build') {
+	   steps {
+		echo 'Building Docker image'
+		sh 'docker build -t jenkins-docker-demo:latest .'
+	   }
+	}
 }
 
+}
