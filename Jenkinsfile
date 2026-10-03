@@ -41,7 +41,9 @@ pipeline {
         stage('Docker Run') {
             steps {
                 echo 'Running Docker container'
-                sh 'docker run -d --name jenkins-docker-test -p 8087:80 jenkins-docker-demo:latest'
+                sh 'docker stop jenkins-docker-test || true'
+		sh 'docker rm jenkins-docker-test || true'
+		sh 'docker run -d --name jenkins-docker-test -p 8087:80 jenkins-docker-demo:latest'
 	}
      }
   }
